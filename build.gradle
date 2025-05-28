@@ -42,7 +42,7 @@ dependencies {
 	// --- 개발 편의성 ---
 	compileOnly 'org.projectlombok:lombok' // Getter/Setter 등 보일러플레이트 제거
 	annotationProcessor 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools' // 자동 재시작 및 개발 도구
+//	developmentOnly 'org.springframework.boot:spring-boot-devtools' // 자동 재시작 및 개발 도구
 
 	// --- 테스트 ---
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'

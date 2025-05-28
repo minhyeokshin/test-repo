@@ -29,13 +29,7 @@ com.Gritty.Linki/
 
 ## 실행 가이드
 
-### 1.백엔드 서버 실행
-
-```
-./gradlew bootRun
-```
-
-### 2. Mock API 서버 실행
+### 1. Mock API 서버 실행
 
 ```
 cd frontend/json-server
@@ -43,7 +37,7 @@ npm install
 npx json-server --watch data.json
 ```
 
-### 3. 프론트엔드 (관리자)
+### 2. 프론트엔드 (관리자)
 
 ```
 cd frontend/linki-admin
@@ -51,7 +45,7 @@ npm install
 npm run dev
 ```
 
-### 4.프론트엔드 (사용자)
+### 3.프론트엔드 (사용자)
 ```
 cd frontend/linki-user
 npm install
