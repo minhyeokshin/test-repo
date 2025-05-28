@@ -64,6 +64,7 @@ bin/
 # 🧑‍💻 VS Code 관련
 # ========================
 .vscode/
+**/node_modules
 
 # ========================
 # 📝 기타 문서
@@ -113,3 +114,4 @@ $RECYCLE.BIN/
 /frontend/Linki/npm-debug.log*
 /frontend/Linki/yarn-debug.log*
 /frontend/Linki/yarn-error.log*
+/fronted/json-server/node_modules/
