@@ -13,11 +13,14 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  proxy: {
-    '^/.*': {
-      target: 'http://localhost:3000',
-      changeOrigin: true,
-      rewrite: (path) => path
+  server: {
+    port: 3001,
+    proxy: {
+      '/': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        rewrite: (path) => path
+      }
     }
   }
 })

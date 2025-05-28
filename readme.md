@@ -40,7 +40,7 @@ com.Gritty.Linki/
 ```
 cd frontend/json-server
 npm install
-npm run start:json  # 포트 3000
+npx json-server --watch data.json
 ```
 
 ### 3. 프론트엔드 (관리자)
